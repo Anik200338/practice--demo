@@ -29,7 +29,7 @@ const Checkout = ({ params }) => {
         price : price,
     }
 
-    const resp = await fetch('http://localhost:3000/checkout/api/new-booking', {
+    const resp = await fetch('https://practice-demo-ten.vercel.app/checkout/api/new-booking', {
         method: 'POST',
         body: JSON.stringify(newBooking),
         headers : {
