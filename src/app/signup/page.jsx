@@ -2,7 +2,7 @@
 
 
 
-import SocialSignin from "@/components/shared/SocialSignin";
+import SocialSignin from "@/Components/shared/SocialSignin";
 import Image from "next/image";
 import Link from "next/link";
 import React, { Suspense } from "react";

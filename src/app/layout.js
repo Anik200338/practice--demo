@@ -4,9 +4,10 @@ import "./globals.css";
 import { ToastContainer } from "react-toastify";
 import { Suspense } from "react";
 import { Inter } from "next/font/google";
-import Footer from "@/components/shared/Footer";
-import Navbar from "@/components/shared/Navbar";
+import Footer from "@/Components/shared/Footer";
+import Navbar from "@/Components/shared/Navbar";
 import AuthProvider from "@/services/AuthProvider";
+
 
 const inter = Inter({ subsets: ["latin"] });
 

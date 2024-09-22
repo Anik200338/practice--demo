@@ -1,17 +1,16 @@
-
 import React from 'react';
 import Banner from './Banner';
 import About from './About';
-import Services from './Services';
+import Services from './Service';
 
 const Homepage = () => {
     return (
-        <div className="">
-            <Banner/>
-            <About/>
-            <Services/>
+        <div>
+         <Banner></Banner>
+         <About></About>
+         <Services></Services>
         </div>
     );
-}
+};
 
 export default Homepage;

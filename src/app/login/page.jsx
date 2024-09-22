@@ -5,7 +5,8 @@ import React  from "react";
 import { signIn, useSession } from "next-auth/react";
 import { BsGoogle, BsGithub } from "react-icons/bs";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import SocialSignin from "@/components/shared/SocialSignin";
+import SocialSignin from "@/Components/shared/SocialSignin";
+
 
 
 
